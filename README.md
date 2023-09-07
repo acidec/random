@@ -3,7 +3,7 @@
 数学老师的任务。代码公开项目。
 
 ## 搭建环境
-首先你得有`nodejs`、可用的网络（别用残废的CN-ML局域网）、`git`
+首先你得有`nodejs`、可用的网络（别用残废的Chian Mainland局域网）、`git`
 
 装一个罢
 
@@ -73,6 +73,10 @@ main.js -> 启动脚本
 package(-lock).json -> npm的购物清单
 
 script.js -> JavaScript代码
+
+namelist.json -> new feature的名单，已打码（new feature暂时还未实现、、
+
+css & fonts & js -> Bootstrap CSS
 
 ## 打包
 
