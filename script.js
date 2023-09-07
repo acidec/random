@@ -7,10 +7,9 @@ function rollNumber(){
  
 	displayResult(set);
 }
- 
- 
+
 function displayResult(set){
 	set.join(", ");
- 
+	
 	document.getElementById('result').innerHTML="<center><h1 class='text-primary'>"+set+"</h1></center>";
 }
