@@ -3,7 +3,7 @@
 数学老师的任务。代码公开项目。
 
 ## 搭建环境
-首先你得有`nodejs`、可用的网络（别用残废的Chian Mainland局域网）、`git`
+首先你得有`nodejs`、可用的网络（别用残废的China Mainland局域网）、`git`
 
 装一个罢
 
