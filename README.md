@@ -9,6 +9,13 @@
 
 [nodejs](https://nodejs.org/en)
 
+也可选用`winget`安装
+```powershell
+winget install OpenJS.NodeJS
+winget install Git.Git
+
+```
+
 当然`nodejs`会同时装包管理器`npm`。但是它默认不会用梯子，这几个变量加上。
 
 注意`electron`那条是这个。
