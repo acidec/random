@@ -4,6 +4,14 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<script>
+		let r = 0;
+		const num = [];
+		num[0] = 0;
+		for (let i = 1; i <= 52; i++) num[i] = 1;
+		let e1 = 51;
+		let e2 = 51;
+	</script>
 </head>
 
 <body>
@@ -13,13 +21,15 @@
 		<h1><strong>这是什么？抽号机喵~</strong></h1>
 		<hr style="border-top:1px dotted #ccc;" />
 		<div class="container-fluid">
-			<h1>1/54</h1>
+			<h1 id="e1/e2"></h1>
+			<script>document.getElementById("e1/e2").innerHTML = e1 + "/" + e2;</script>
 			<button type="button" class="btn btn-info btn-lg" onclick="rollNumber();">抽！</button>
 			<br>
 		</div>
 		<div class="container-fluid">
 			<h2>结果：</h2>
 			<div id="result"></div>
+			<button type="button" class="btn btn-info btn-lg" onclick="reset();">重置</button>
 		</div>
 	</div>
 	<script src="script.js"></script>

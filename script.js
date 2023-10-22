@@ -1,25 +1,34 @@
 function rollNumber() {
 	var set = [];
+
 	while (set.length < 1) {
-		var r = Math.floor(Math.random() * 59) + 1;
-		if (set.indexOf(r) === -1) {
-			if (r > 55 || r == 6 || r == 16 || r == 29) {
-				set.push(2);
+		if (e1 == 0) set.push("error!!!");
+		if (e1 != 0) {
+			while (num[r] == 0) {
+				r = Math.floor(Math.random() * 51) + 1;
 			}
-			if (r < 55 && r != 6 && r != 16 && r != 29) {
-				set.push(r);
+			num[r] = num[r] - 1;
+
+			e1 = e1 - 1;
+			document.getElementById("e1/e2").innerHTML = e1 + "/" + e2;
+
+			if (set.indexOf(r) === -1) {
+				if (r == 6) set.push(52);
+				if (r == 16) set.push(53);
+				if (r == 29) set.push(54);
+				else set.push(r);
 			}
 		}
-		//6&16&29寄了，生成60个数把55-60都放到2号
-		//人数是54个，生成的随机数存在r里
-		//0-53范围generate再+1
+		displayResult(set);
 	}
-
-	displayResult(set);
 }
-
 function displayResult(set) {
 	set.join(", ");
 
 	document.getElementById('result').innerHTML = "<center><h1 class='text-primary'>" + set + "</h1></center>";
+}
+function reset() {
+	e1 = 51;
+	for (let i = 1; i <= 52; i++) num[i] = 1;
+	document.getElementById("e1/e2").innerHTML = e1 + "/" + e2;
 }
