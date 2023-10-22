@@ -42,15 +42,24 @@ git clone https://github.com/acidec/random.git
 ```
 代码下来了
 
+先编辑`.npmrc`
+
+加入
+
+```
+electron_mirror=https://npmmirror.com/mirrors/electron/
+```
+
+
 ```powershell
 cd random
 npm install
 ```
-这样把依赖node modules都装上
+这样把依赖 node modules 都装上
 
 **这步建议梯子开全局代理**
 
-看没**error**就行了，有就
+看没 **error** 就行了，有就
 
 ```powershell
 rmdir /s /q node_modules
@@ -97,7 +106,7 @@ npm run make
 
 在`main.js`改启动长宽比和标题名。
 
-剩下的可以去[Electron文档](https://www.electronjs.org/docs/latest/)看。
+剩下的可以去 [Electron Documents](https://www.electronjs.org/docs/latest/) 看。
 
 ## 杂记
 
