@@ -49,6 +49,7 @@ git clone https://github.com/acidec/random.git
 ```
 electron_mirror=https://npmmirror.com/mirrors/electron/
 ```
+<img width="475" alt="image" src="https://github.com/acidec/random/assets/117443292/67f1ba1c-8350-442a-9a78-146989fa7ba2">
 
 
 ```powershell
