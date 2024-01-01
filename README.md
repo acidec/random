@@ -77,17 +77,17 @@ css & fonts & js -> Bootstrap CSS
 
 ## 杂记
 
-    在`forge.config.js`改图标，或者直接把图标文件替换，一定要convert成.ico并且用一样的名字，大小推荐512x512
+在`forge.config.js`改图标，或者直接把图标文件替换，一定要convert成.ico并且用一样的名字，大小推荐512x512
 
-    在`main.js`改启动长宽比和标题名。
+在`main.js`改启动长宽比和标题名。
 
-    余下可去 [Electron Documents](https://www.electronjs.org/docs/latest/) 见。
+余下可去 [Electron Documents](https://www.electronjs.org/docs/latest/) 见。
 
-    图标用稳定扩散画的，用的甜糖模型，在拥抱脸可能下。
+图标用稳定扩散画的，用的甜糖模型，在拥抱脸可能下。
 
-    咒语，需甘城なつき之LoRA模，很难复现，可能要开低显存优化（即使君卡显存很大
-    ```text
+咒语，需甘城なつき之LoRA模，很难复现，可能要开低显存优化（即使君卡显存很大
+    
     white hair, cat ears, blue eyes, ahoge, white background, smile <lora:甘城なつき:1>
     Negative prompt: EasyNegative, cat
     Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 20060523, Size: 512x512, Model hash: f1cf66d5b1, Model: sweetSugarSyndrome_rev15, VAE hash: f921fb3f29, VAE: animevae.pt, Clip skip: 2, Lora hashes: "甘城なつき: a9e374b22924", Version: v1.7.0-RC-39-g39ebd568
-    ```
+    
