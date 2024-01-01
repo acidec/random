@@ -15,7 +15,7 @@ winget install Git.Git
 
 ```
 
-`nodejs`装包管理器`npm`与同时。然其静默不用梯子，加变量于其。
+`nodejs`装包管理器`npm`与同时。然其静默不用法术，故加变量于其。
 
 ```text
 ELECTRON_GET_USE_PROXY
@@ -38,24 +38,24 @@ electron_mirror=https://npmmirror.com/mirrors/electron/
 cd random
 npm install
 ```
-如此把依赖 node modules 都装上
+如此 dependence node modules 取得
 
-看没 error 即可，有就
+没 error 即行，若有则
 
 ```powershell
 rmdir /s /q node_modules
 npm install
 ```
 
-确认在`random`目录下，然后
+确认处`random`目录下，后
 
 ```powershell
 npm run start
 ```
 
-`Electron`启动一个窗口，是这个网页。
+`Electron`启动一个窗口，为此网页。
 
-呐，跑起来了。
+呐，run 之。
 
 ## 结构
 
@@ -77,15 +77,15 @@ css & fonts & js -> Bootstrap CSS
 
 ## 杂记
 
-在`forge.config.js`改图标，或者直接把图标文件替换，一定要convert成.ico并且用一样的名字，大小推荐512x512
+于`forge.config.js`置图标，或替图标文件，务必 convert 成 .ico 并且用相同之名，size 议512x512
 
-在`main.js`改启动长宽比和标题名。
+于`main.js`置启动长宽比和标题名。
 
-余下可去 [Electron Documents](https://www.electronjs.org/docs/latest/) 见。
+余下可 [Electron Documents](https://www.electronjs.org/docs/latest/) 见。
 
-图标用稳定扩散画的，用的甜糖模型，在拥抱脸可能下。
+icon 自稳定扩散画，甜糖模，在拥抱脸可能下载。
 
-咒语，需甘城なつき之LoRA模，很难复现，可能要开低显存优化（即使君卡显存很大
+咒记，需甘城なつき之LoRA模，很难复现，可能要开低显存优化（即使君卡显存很大
     
     white hair, cat ears, blue eyes, ahoge, white background, smile <lora:甘城なつき:1>
     Negative prompt: EasyNegative, cat
